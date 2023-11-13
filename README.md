@@ -85,3 +85,25 @@ HEAD            config     hooks/       info/  objects/
 
 $ cat HEAD # команда cat показывает содержимое файла
 ref: refs/heads/master # в файле вот такая ссылка 
+
+
+
+HEAD -- это голова.
+Коммит -- это всему голова.
+Статусы файлов:
+<тут пустая строка!>
+
+```mermaid
+%% описание схемы
+```
+<и тут пустая строка!>
+
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```
